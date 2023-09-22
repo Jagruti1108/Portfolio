@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERBSGX80RL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ERBSGX80RL');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagruti's Portfolio</title>
+    <style>
+        form {
+            display: grid;
+            gap: 10px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body oncontextmenu="return false">
+    <header>
+        <div class="name">
+            <a class="see" href="">Portfolio</a>
+        </div>
+        <div class="navDiv">
+            <label for="menu">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+        <input type="checkbox" id="menu">
+        <ul class="nav">
+            <label for="menu">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <li><a style="color:crimson; font-weight: bold;" href="index.html">Home</a></li>
+            <li><a style="color:crimson; font-weight: bold;" href="about.html">About</a></li>
+            <li><a style="color:crimson; font-weight: bold;" href="skills.html">Skills</a></li>
+            <li><a style="color:crimson; font-weight: bold;" href="project.html">Projects</a></li>
+            <li><a style="color:crimson; font-weight: bold;" href="contact.html">Contacts</a></li>
+        </ul>
+    </header>
+    <br><br><br>
+    <div id="contact">
+
+        <h2 class="title">Get in Touch</h2>
+        <form style="justify-content:center;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form><br>
+        <h4 style="text-align: center;">OR</h4>
+        <ul class="contact">
+            <li><a href="tel:7045003976">&nbsp;&nbsp;Phone&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-phone"></i></a><a
+                    href="mailto:jagrutikumarimahto@gmail.com">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Mail&nbsp;&nbsp;<i
+                        class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="https://goo.gl/maps/dGJYUcaoGxL5KFT98">&nbsp;&nbsp;Address&nbsp;&nbsp;<i
+                        class="fa-solid fa-location-dot"></i></a><a
+                    href="https://api.whatsapp.com/send?phone=7045003976">&nbsp;&emsp;&emsp;&emsp;WhatsApp&nbsp;&nbsp;<i
+                        class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="">&ensp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<i class=""></i></a>
+            </li>
+        </ul><br>
+        <div class="footer">
+            <hr color="black">
+
+            <h3 class="title">Thank you for visiting my profile!&nbsp;Designed by ~Jagruti!</h3>
+            <hr style="width: 50%;">
+            <h5 style="text-align: center;">&copy; 2023 Jagruti's Portfolio | All rights reserved.</h5>
+        </div>
+    </div>
+</body>
+
+</html>
